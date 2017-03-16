@@ -3,29 +3,29 @@ body {
   width: 335px;
 }
 
-img {
+.animal-image {
   width: 300px;
   height: 200px;
 }
 
-ul {
-  list-style-position: outside;
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-ul.fact li span {
-  font-weight: bold;
-}
-
-.short_desc {
+.short-desc {
     font-style: italic;
 }
 
-.card {
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.08);
+.fact-list {
+  list-style-position: outside;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.interesting-fact-label {
+  font-weight: bold;
+}
+
+.animal-fact {
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.08);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.08);
+  box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.08);
   padding: 10px;
   margin: 5px;
   border: 1px solid #cecece;
